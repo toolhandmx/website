@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://toolhandmx.github.io/website/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Toolhand: Tecnología y creatividad al servicio de tu día a día
+    </title>
+    <script>
+      const root = document.documentElement;
+      const colorScheme = window.localStorage.getItem("color-scheme");
+      const media = window.matchMedia("(prefers-color-scheme: dark)");
+      const mediaScheme = media.matches ? "dark" : "light";
+      root.setAttribute(
+        "data-color-scheme",
+        colorScheme != null ? colorScheme : mediaScheme
+      );
+    </script>
+    <script type="module" crossorigin src="https://toolhandmx.github.io/website/assets/index-BC-T_BBm.js"></script>
+    <link rel="stylesheet" crossorigin href="https://toolhandmx.github.io/website/assets/index-DPj5HxhA.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
