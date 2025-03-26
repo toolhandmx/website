@@ -54,7 +54,7 @@ function Features() {
             Tu tranquilidad es nuestra prioridad. Respaldamos todos nuestros
             trabajos con <strong>garantías claras</strong> y un{" "}
             <strong>servicio post-venta dedicado</strong>, para que puedas
-            confiar en que tu inversión estará protegida y que
+            confiar en que tu inversión estará protegida y que{" "}
             <strong>siempre estarás en buenas manos</strong>.
           </p>
         </div>
